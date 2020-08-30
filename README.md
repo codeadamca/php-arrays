@@ -37,11 +37,11 @@ $person['age'] = 30;
 ?>
 ```
 
-There are some rules when naming your variables:
+There are some rules when naming your arrays and keys:
 
 - Array names must follow the same rules as variable names.
-- Unlike variabels names, array keys can be or start with numbers.
-- Array keys can use any alpha-numeric characters.
+- Unlike variables names, array keys can start with numbers or be numeric.
+- Array keys can use any alpha-numeric characters and underscores.
 - Array keys are case sensitive.
 
 ## The End Goal
