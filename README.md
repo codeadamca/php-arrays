@@ -107,7 +107,7 @@ echo '<h1>'.$link['name'].'</h1>';
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
 * [Filezilla](https://filezilla-project.org/) (or any FTP program)
 
-Full tutorial URL: https://codeadam.ca/learning/php/php-arrays.html
+Full tutorial URL: https://codeadam.ca/learning/php-arrays.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
