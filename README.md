@@ -1,4 +1,4 @@
-# php-arrays
+# A Basic Introduction to PHP and Arrays
 
 A basic example of using PHP arrays.
 
