@@ -15,7 +15,7 @@
     
     $link['name'] = 'Codecademy';
     $link['url'] = 'https://www.codecademy.com/';
-    $link['image'] = 'https://production.cdmycdn.com/webpack/44e01805165bfde4e6e4322c540abf81.svg';
+    $link['image'] = 'https://images.codecademy.com/social/logo-codecademy-social.png';
     $link['description'] = 'Learn to code interactively, for free.';
     
     echo '<h1>'.$link['name'].'</h1>';
