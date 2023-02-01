@@ -79,7 +79,7 @@ In this lesson we're going to focus on the last step, outputting data using HTML
     
     $link['name'] = 'Codecademy';
     $link['url'] = 'https://www.codecademy.com/';
-    $link['image'] = 'https://static-assets.codecademy.com/Courses/Learn-Redux/matching-game/codecademy_logo.png';
+    $link['image'] = 'codecademy.png';
     $link['description'] = 'Learn to code interactively, for free.';
     
     ?>
