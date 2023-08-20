@@ -60,54 +60,57 @@ In this lesson we're going to focus on the last step, outputting data using HTML
 
 1. Open up a new file and name it arrays.php.
 2. Add the following code to the new PHP file:
-
-```php
-<!doctype html>
-<html>
-<head>
-    <title>Links and Arrays</title>
-</head>
-<body>
     
-    <h1>Links and Arrays</h1>
-    
-    <p>Use PHP echo and arrays to output the following link information:</p>
+    ```php
+    <!doctype html>
+    <html>
+    <head>
+        <title>Links and Arrays</title>
+    </head>
+    <body>
         
-    <hr>
-    
-    <?php
-    
-    $link['name'] = 'Codecademy';
-    $link['url'] = 'https://www.codecademy.com/';
-    $link['image'] = 'codecademy.png';
-    $link['description'] = 'Learn to code interactively, for free.';
-    
-    ?>
+        <h1>Links and Arrays</h1>
         
-</body>
-</html>
-```
+        <p>Use PHP echo and arrays to output the following link information:</p>
+            
+        <hr>
+        
+        <?php
+        
+        $link['name'] = 'Codecademy';
+        $link['url'] = 'https://www.codecademy.com/';
+        $link['image'] = 'codecademy.png';
+        $link['description'] = 'Learn to code interactively, for free.';
+        
+        ?>
+            
+    </body>
+    </html>
+    ```
 
 3. After the array is defined use a series of `echo` statements to display the content. For example outputting the `$link['name']` might look like this:
+    
+    ```php
+    <?php
+    
+    echo '<h1>'.$link['name'].'</h1>';
+    
+    ?>
+    ```
 
-```php
-<?php
-
-echo '<h1>'.$link['name'].'</h1>';
-
-?>
-```
-
-> Hint: Add each value from the array one at a time. Test your PHP after each new line of PHP. 
+Hint: Add each value from the array one at a time. Test your PHP after each new line of PHP. 
 
 > [More information on PHP arrays](https://www.php.net/manual/en/language.types.array.php)
 
-## Tutorial Requirements:
+> Full tutorial URL:  
+> https://codeadam.ca/learning/php-arrays.html
+
+***
+
+## Repo Resources
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
 * [Filezilla](https://filezilla-project.org/) (or any FTP program)
-
-Full tutorial URL: https://codeadam.ca/learning/php-arrays.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
